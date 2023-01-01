@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #dfe9f5;
+}
+ .wrapper{
+  width: 330px;
+  padding: 2rem 0 1rem 0;
+  margin: 50px auto;
+  background: wheat;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input{
+  width: 85%;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+a:hover{
+  text-decoration: underline;
+}
+.hero{
+  background-color: #1d2026;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+  
+}
+nav .menu-img{
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+nav .logo{
+  width: 160px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+  top: 10px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  top: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  top: 10px;
+  
+}
+button{
+  cursor: pointer;
+  background: #efefef;
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  border: 0;
+outline: 0;
+transition: background 0.5s;
+
+}
+span{
+  display: block;
+  background: #999;
+  height: 25px;
+  width: 27px;
+  border-radius: 50%;
+  margin-left: 0px;
+  transition: background 0.5s margin-left 0.5s;
+}
+.lamp-contanier{
+  position: absolute;
+  top: -20px;
+  left: 22%;
+  width: 200px;
+}
+.lamp{
+  position: absolute;
+  width: 300px;
+  left: 22%;
+  top: 9%;
+}
+.light{
+  position: absolute;
+  top: 42%;
+  left: 37%;
+  transform: translateX(-50%);
+  width: 700px;
+  margin-left: -10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.text-container{
+  max-width: 60px;
+  margin-top: 7%;
+  margin-left: 50%;
+}
+.text-container h1{
+  font-size: 80px;
+  font-weight: 400;
+}
+.text-container a{
+  text-decoration: none;
+  background: #00986f;
+  padding: 14px 40px;
+  display: block;
+color: #fff;
+font-size: 18px;
+margin-top: 30px;
+border-radius: 30px;
+
+}
+.active{
+  background: green;
+}
+.active span{
+  background: #fff;
+  margin-left: 31px;
+}
+.on{
+  opacity: 1;
+}
